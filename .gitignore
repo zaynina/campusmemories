@@ -1,0 +1,24 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+
+# Private configuration
+.env
+.env.*
+!.env.example
+
+# Local database
+db.sqlite3
+db.sqlite3-journal
+
+# Uploaded images and generated static files
+media/
+staticfiles/
+
+# Frontend dependencies and output
+node_modules/
+dist/
